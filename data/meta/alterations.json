@@ -1,0 +1,30 @@
+{
+    "deletions": {
+        "data_starting_row": "2",
+        "columns": [
+            "activity-status/@code",
+            "participating-org/0/@type"
+        ],
+        "values": []
+    },
+    "additions": {
+        "rows": [],
+        "columns": [],
+        "values": []
+    },
+    "substitutions": {
+        "columns": {
+            "s": "iati-identifier",
+            "transaction/0/transaction-type/@co3e": "transaction/0/transaction-type/@code"
+        },
+        "values": []
+    },
+    "column_deduplications": {
+        "Activity Level": {
+            "E": "activity-status/@code"
+        },
+        "Participating Organisations": {
+            "G": "participating-org/0/@type"
+        }
+    }
+}

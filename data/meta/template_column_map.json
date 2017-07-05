@@ -1,0 +1,79 @@
+{
+  "Activity Level": [
+    "iati-identifier",
+    "title/narrative",
+    "description/narrative",
+    "activity-status/@code",
+    "activity-date/0/@type",
+    "activity-date/0/@iso-date",
+    "activity-date/1/@type",
+    "activity-date/1/@iso-date",
+    "recipient-country/narrative",
+    "recipient-country/@code",
+    "sector/0/narrative",
+    "sector/0/@code",
+    "sector/0/@percentage",
+    "reporting-org/@ref",
+    "reporting-org/@type",
+    "reporting-org/narrative"
+  ],
+  "Participating Organisations": [
+    "iati-identifier",
+    "participating-org/0/@role",
+    "participating-org/0/narrative",
+    "participating-org/0/@ref",
+    "participating-org/0/@activity-id",
+    "participating-org/0/@type"
+  ],
+  "Budgets": [
+    "iati-identifier",
+    "budget/0/@type",
+    "budget/0/period-start/@iso-date",
+    "budget/0/value/@currency",
+    "budget/0/period-end/@iso-date",
+    "budget/0/value",
+    "budget/0/value/@value-date"
+  ],
+  "Incoming Funds": [
+    "iati-identifier",
+    "transaction/0/value",
+    "transaction/0/value/@currency",
+    "transaction/0/value/@value-date",
+    "transaction/0/transaction-date/@iso-date",
+    "transaction/0/description/narrative",
+    "transaction/0/transaction-type/@code",
+    "transaction/0/provider-org/narrative",
+    "transaction/0/provider-org/@ref",
+    "transaction/0/provider-org/@provider-activity-id",
+    "transaction/0/receiver-org/narrative",
+    "transaction/0/receiver-org/@ref",
+    "transaction/0/receiver-org/@receiver-activity-id"
+  ],
+  "Disbursements": [
+    "iati-identifier",
+    "transaction/0/value",
+    "transaction/0/value/@currency",
+    "transaction/0/value/@value-date",
+    "transaction/0/transaction-date/@iso-date",
+    "transaction/0/description/narrative",
+    "transaction/0/transaction-type/@code",
+    "transaction/0/provider-org/narrative",
+    "transaction/0/provider-org/@ref",
+    "transaction/0/provider-org/@provider-activity-id",
+    "transaction/0/receiver-org/narrative",
+    "transaction/0/receiver-org/@ref",
+    "transaction/0/receiver-org/@receiver-activity-id"
+  ],
+  "Expenditure": [
+    "iati-identifier",
+    "transaction/0/value",
+    "transaction/0/value/@currency",
+    "transaction/0/value/@value-date",
+    "transaction/0/transaction-date/@iso-date",
+    "transaction/0/description/narrative",
+    "transaction/0/transaction-type/@code",
+    "transaction/0/provider-org/narrative",
+    "transaction/0/provider-org/@ref",
+    "transaction/0/provider-org/@provider-activity-id"
+  ]
+}
