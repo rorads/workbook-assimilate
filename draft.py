@@ -21,6 +21,7 @@ def register_template(xlsx_template_name):
     sheet_column_dict = {}
 
     for sheetname in template_workbook.sheetnames:
+        # Exclude comment sheets
         if sheetname[0] is '#':
             pass
         else:
